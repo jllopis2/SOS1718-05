@@ -1,0 +1,15 @@
+{
+  "name": "sos1718-l04",
+  "version": "0.0.0",
+  "description": "my first module in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Julperrod1",
+  "license": "ISC",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
+}
