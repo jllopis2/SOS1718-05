@@ -1,13 +1,11 @@
-var cool = require("cool-ascii-faces");
-
-var express =  require("express");
+var express = require("express");
 var app = express();
 
+
 app.get("/hello",(req,res)=>{
-    res.send("hello World!");
+    res.send("Hello World");
 });
 
 app.listen(process.env.PORT);
 
-console.log(cool());
-console.log("Hello World!");
+//prueba para subirlo a github!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
