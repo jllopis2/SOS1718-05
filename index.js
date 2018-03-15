@@ -11,14 +11,7 @@ var year = [
         "name":"Julio",
         "age":21
         },
-        {
-           "name":"Vicente",
-        "age":24  
-        },
-        {
-           "name":"Manu",
-        "age":21  
-        }
+       
     
     
     ];
