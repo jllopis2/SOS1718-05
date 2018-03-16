@@ -16,6 +16,7 @@ var year = [
         "age":24  
         },
         {
+<<<<<<< HEAD
            "name":"Vicente",
         "age":24  
         },
@@ -24,6 +25,11 @@ var year = [
         "age":24  
         }
     
+=======
+           "name":"Jose",
+        "age":24  
+        }
+>>>>>>> 5ec8540dea3a0842bd035c3a78942a27f83757d7
     
     
     ];
