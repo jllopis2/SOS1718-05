@@ -11,15 +11,14 @@ var year = [
         "name":"Julio",
         "age":21
         },
-<<<<<<< HEAD
-       
-=======
         {
            "name":"Vicente",
         "age":24  
         },
-    
->>>>>>> 898d07b90e3e31ac9e2beba4c1897ca53a9a71f8
+        {
+           "name":"Jose",
+        "age":24  
+        }
     
     
     ];
