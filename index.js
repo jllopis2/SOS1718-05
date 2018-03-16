@@ -14,30 +14,6 @@ var year = [
         {
            "name":"Vicente",
         "age":24  
-        },
-        {
-<<<<<<< HEAD
-           "name":"Vicente",
-        "age":24  
-        },
-        {
-           "name":"Vicente",
-        "age":24  
-        },
-    {
-           "name":"Jose",
-=======
-               "name":"Vicente",
-        "age":24  
-        },
-          {
-               "name":"Vicente",
-        "age":24  
-        },
-          {
-               "name":"Vicente",
->>>>>>> 21b0a0b38bd5ad97f5253679881fec0aca1f303a
-        "age":24  
         }
     
     
