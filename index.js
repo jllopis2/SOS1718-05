@@ -93,20 +93,20 @@ app.get(API_BASE_PATH+"best/:year",(req,res)=>{
     console.log(Date() + " - new GET /best");
     var anyo = req.params.year;
     
-    db.find({"year":anyo},(err,bests)=>{
+    db.find({"year":2017},(err,bests)=>{
          if(err){
             console.log("Error accesing DB");
             res.sendStatus(500);
         }
-    console.log(bests);
     res.send(bests);
+    
     });
 }); 
 
 app.delete(API_BASE_PATH+"best/:year",(req,res)=>{
     console.log(Date() + " - new DELETE /best");
-    var year = req.params.year;
-    db.remove({"year":this.year});
+    var anyo = req.params.year;
+    db.remove({"year":2017});
 
     res.sendStatus(200);
 });  
