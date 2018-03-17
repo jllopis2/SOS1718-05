@@ -93,7 +93,10 @@ app.get(API_BASE_PATH+"best/:year",(req,res)=>{
     console.log(Date() + " - new GET /best");
     var anyo = req.params.year;
     
-    db.find({"year":2017},(err,bests)=>{
+   
+   
+    
+    db.find({"year": parseInt(anyo,0)},(err,bests)=>{
          if(err){
             console.log("Error accesing DB");
             res.sendStatus(500);
@@ -106,7 +109,7 @@ app.get(API_BASE_PATH+"best/:year",(req,res)=>{
 app.delete(API_BASE_PATH+"best/:year",(req,res)=>{
     console.log(Date() + " - new DELETE /best");
     var anyo = req.params.year;
-    db.remove({"year":2017});
+    db.remove({"year":parseInt(anyo,0)});
 
     res.sendStatus(200);
 });  
