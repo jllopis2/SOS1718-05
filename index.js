@@ -23,11 +23,11 @@ app.use(bodyParser.json());
 app.use("/",express.static(__dirname+"/public"));
 
 
-app.get(API_BASE_PATH+"year",(req,res)=>{
+app.get(API_BASE_PATH+"best",(req,res)=>{
     res.send(year);
 });
 
-app.post(API_BASE_PATH+"year",(req,res)=>{
+app.post(API_BASE_PATH+"best",(req,res)=>{
     var years =  req.body;
     year.push(years);
     res.sendStatus(201);
